@@ -46,9 +46,12 @@ header {
           letter-spacing: 0.5px;
           line-height: 70px;
           transition: all 0.3s;
-        }
-        a:hover {
-          color: $color-white-op;
+          &:hover {
+            color: $color-white-op;
+          }
+          &:hover + .sub_menu {
+            opacity: 1;
+          }
         }
         .sub_menu {
           position: absolute;
@@ -69,15 +72,12 @@ header {
               letter-spacing: 0.5px;
               line-height: 38.5px;
               text-align: left;
-            }
-            a:hover {
-              color: $color-white;
-              background-color: $color-gray-op;
+              &:hover {
+                color: $color-white;
+                background-color: $color-gray-op;
+              }
             }
           }
-        }
-        a:hover + .sub_menu {
-          opacity: 1;
         }
       }
     }
@@ -92,9 +92,9 @@ header {
       background-size: 20px;
       transition: all 0.3s;
       text-indent: -99999px;
-    }
-    button:hover{
-      opacity: 0.5;
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
 }
