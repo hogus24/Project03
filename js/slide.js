@@ -29,7 +29,7 @@ $(function () {
       var nextPager = pager.eq(current);
       nextPager.addClass("on");
       cnt(current);
-    }, 5000);
+    }, 8000);
   }
 
   function move(tg, start, end) {
