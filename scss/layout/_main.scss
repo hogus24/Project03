@@ -17,14 +17,14 @@ main {
             rgba(0, 0, 0, 0.4) 0%,
             rgba(0, 0, 0, 0.4) 100%
           ),
-          url(/image/Img_main_visual_1.jpg);
+          url(../image/Img_main_visual_1.jpg);
       }
       &.BG_2 {
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.4) 0%,
             rgba(0, 0, 0, 0.4) 100%
           ),
-          url(/image/Img_main_visual_2.jpg);
+          url(../image/Img_main_visual_2.jpg);
       }
     }
     .main_visual_ct {
