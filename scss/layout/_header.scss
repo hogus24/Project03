@@ -1,0 +1,100 @@
+header {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid $color-white-op;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  .header_top {
+    max-width: 1280px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      a {
+        display: block;
+        height: 70px;
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+  nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    ul {
+      li {
+        display: inline-block;
+        position: relative;
+        a {
+          display: inline-block;
+          height: 70px;
+          padding: 0 20px;
+          color: $color-white;
+          font-style: normal;
+          font-size: 14px;
+          font-weight: bold;
+          letter-spacing: 0.5px;
+          line-height: 70px;
+          transition: all 0.3s;
+        }
+        a:hover {
+          color: $color-white-op;
+        }
+        .sub_menu {
+          position: absolute;
+          top: 70px;
+          opacity: 0;
+          transition: all 0.3s;
+          li {
+            display: block;
+            a {
+              display: block;
+              width: 160px;
+              height: 38.5px;
+              background-color: $color-white;
+              color: $color-gray-op;
+              font-style: normal;
+              font-size: 13px;
+              font-weight: bold;
+              letter-spacing: 0.5px;
+              line-height: 38.5px;
+              text-align: left;
+            }
+            a:hover {
+              color: $color-white;
+              background-color: $color-gray-op;
+            }
+          }
+        }
+        a:hover + .sub_menu {
+          opacity: 1;
+        }
+      }
+    }
+    button {
+      display: block;
+      width: 20px;
+      height: 20px;
+      margin-left: 15px;
+      background-image: url(/image/Icon_search.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 20px;
+      transition: all 0.3s;
+      text-indent: -99999px;
+    }
+    button:hover{
+      opacity: 0.5;
+    }
+  }
+}

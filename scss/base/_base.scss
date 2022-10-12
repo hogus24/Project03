@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: none;
+  cursor: pointer;
+}
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+strong,
+small,
+i,
+em,
+address,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+a,
+span,
+form,
+fieldset,
+legend,
+label,
+input,
+button,
+select,
+option,
+textarea,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  font-family: "NanumSquare", "Malgun Gothic", sans-serif;
+}
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.ds {
+  display: none;
+}
