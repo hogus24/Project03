@@ -197,10 +197,10 @@ main .main_visual .main_visual_bg {
   z-index: -1;
 }
 main .main_visual .main_visual_bg.BG_1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(/image/Img_main_visual_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../image/Img_main_visual_1.jpg);
 }
 main .main_visual .main_visual_bg.BG_2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(/image/Img_main_visual_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../image/Img_main_visual_2.jpg);
 }
 main .main_visual .main_visual_ct {
   height: 100%;
