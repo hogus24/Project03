@@ -136,13 +136,10 @@ header nav ul li a {
 header nav ul li a:hover {
   color: rgba(255, 255, 255, 0.2);
 }
-header nav ul li a:hover + .sub_menu {
-  opacity: 1;
-}
 header nav ul li .sub_menu {
+  display: none;
   position: absolute;
   top: 70px;
-  opacity: 0;
   transition: all 0.3s;
 }
 header nav ul li .sub_menu li {
@@ -197,10 +194,18 @@ main .main_visual .main_visual_bg {
   z-index: -1;
 }
 main .main_visual .main_visual_bg.BG_1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../image/Img_main_visual_1.jpg);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../image/Img_main_visual_1.jpg);
 }
 main .main_visual .main_visual_bg.BG_2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../image/Img_main_visual_2.jpg);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../image/Img_main_visual_2.jpg);
 }
 main .main_visual .main_visual_ct {
   height: 100%;
@@ -292,4 +297,4 @@ footer .footer_ct p {
 }
 footer .footer_ct p:nth-of-type(2) {
   color: #7a7a7a;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
